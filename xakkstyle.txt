@@ -1,0 +1,11 @@
+/*
+CSS for pulling image orientation from image itself
+
+
+p img {
+    image-orientation: from-image;
+}
+*/
+p {
+    color: blue;
+}

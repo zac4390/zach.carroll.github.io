@@ -1,0 +1,82 @@
+/*
+CSS for pulling image orientation from image itself
+*/
+.fun {
+  color: silver;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+#header {
+  background-color: black;
+  color: silver;
+}
+
+body {
+  background-color: black;
+  line-height: 150%;
+  padding: 12px;
+  padding: 0;
+  margin: 0;
+  color: silver;
+    font-family: rockwell;
+}
+
+body p, h1, h2 {
+   padding: 12px;
+}
+
+p img {
+    image-orientation: from-image;
+}
+
+
+p, li {
+    font-family: candara;
+}
+
+
+
+li {
+  font-size: small;
+
+}
+
+h2 {
+  font-weight: normal;
+}
+
+
+/*Link colors */
+a:link {
+  color: royalblue;
+}
+
+:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  background-color:silver;
+}
+
+a:active {
+  color: mediumvioletred;
+  /*background-color: laver;*/
+}
+/*End of link colors*/
+
+.attentiongrab {
+  width: 50%;
+}
+
+#navigation {
+  background-color: goldenrod;
+  width: 200px;
+  height: 400px;
+  position: relative;
+    right: 50px;
+    color: navy;
+    font-size: 120%;
+}

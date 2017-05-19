@@ -1,0 +1,53 @@
+<!-- <?php
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "xakk";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+
+$name = $_POST['yourname'];
+$phone = $_POST['phone'];
+$email = $_POST['email'];
+$message = $_POST['contactmessage'];
+$preferredcontact = $_POST['contactmethod'];
+$othercontactmethod = $_POST['othercontactmethod'];
+$besttimetocall = $_POST['phonetime'];
+$pleasure = $_POST['pleased'];
+$agreedatashare = $_POST['agreestodata'];
+$messagetime = date("r");
+
+$storemessage = $conn->prepare("INSERT INTO message (Name,	Phone,	Email,	Message,	PreferredContact,	OtherContactMethod, BestTimeToCall,	Pleasure,	AgreeDataShare,	MessageTime)
+                  VALUES ('$name', '$phone', '$email', '$message', '$preferredcontact', '$othercontactmethod', '$besttimetocall', '$pleasure', '$agreedatashare', '$messagetime')");
+
+$storemessage->execute();
+
+?>  -->
+
+
+
+
+<br>
+<div id="navigation" style="float:right;">
+ <h3 style="margin-left: 15px">Site Navigation</h3>
+
+ <ul>
+   <li><a href="Home.php">Home</a></li>
+   <li><a href="LovableQuotes.php">Lovable Quotes</a></li>
+   <li><a href="personalityandstrengths.php">Personality &amp; Strengths</a></li>
+   <li><a href="VBA.php">VBA/Excel Projects</a></li>
+   <li><a href="Pictures.php">Pictures</a></li>
+   <li><a href="bookrecommendations.php">Book Recommendations</a></li>
+   <li><a href="Contact.php">Contact Me</a></li>
+   <li><a href="tabletest.php">Table Test</a></li>
+ </ul>
+</div> <!-- End of navigation -->
+
+
+http://localhost/Xakk.com/Pictures/pastselfs/ps1.jpg
